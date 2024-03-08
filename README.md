@@ -2,8 +2,11 @@
 # Overview
 This project aims to develop a machine learning model to predict customer churn for a telecom company. Churn prediction is crucial for businesses to identify customers who are likely to cancel their subscriptions, allowing the company to take proactive measures to retain them.
 
-# Dataset
-The dataset used for this analysis contains information about telecom customers, including features such as customer demographics, usage patterns, and customer service interactions. The target variable is binary, indicating whether a customer churned or not.
+# Data Understanding
+The dataset has the following columns:
+
+State, account length,area code,phone number,international plan,voice mail plan, number vmail messages,total day minutes,total day calls,total day charge, total eve minutes, total eve calls,total eve charge, total night minutes,total night calls,total night charge,total intl minutes,total intl calls,total intl charge,customer service calls,churn.
+The dataset used for this analysis contains information about syria tel customers, including features such as customer demographics, usage patterns, and customer service interactions. The target variable is binary, indicating whether a customer churned or not.
 
 # Analysis
 # Exploratory Data Analysis (EDA)
