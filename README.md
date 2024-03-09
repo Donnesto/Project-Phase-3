@@ -49,3 +49,6 @@ Customer Engagement Strategies: Improve satisfaction and loyalty through persona
 Subscription Plan Optimization: Tailor plans to meet individual needs and preferences.
 Proactive Customer Retention: Implement proactive measures to retain high-value customers.
 Continuous Model Monitoring: Regularly monitor and update models to ensure accuracy and relevance over time.
+
+
+The presentation can be viewed [here](https://www.canva.com/design/DAF_AtiWMgc/4i0quEGanAQwMRy05UK5xQ/edit?utm_content=DAF_AtiWMgc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
