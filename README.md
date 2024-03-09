@@ -1,4 +1,5 @@
-# Project-Phase-3
+# SYRIA-TEL CUSTOMER CHURN PREDICTION
+
 # Overview
 Customer churn, or the termination of a customer's service, is a major problem for SyriaTel, a well-known telecommunications provider. This can result in lost revenue and decreased market competitiveness. This project intends to reveal predictive patterns and create workable strategies to keep customers and reduce revenue loss by utilizing data analysis and machine learning.
 
@@ -7,44 +8,44 @@ Problem Statement:
 Customer churn poses a significant challenge for SyriaTel, resulting in revenue loss and decreased business stability. The primary issue revolves around predicting customer departure and understanding the underlying reasons. SyriaTel aims to mitigate customer churn and uphold satisfaction to ensure long-term business sustainability.
 
 # Data Understanding
-The dataset has the following columns:
+The data used in this project is from SyriaTel telecommunications company: [here](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)
 
-State, account length,area code,phone number,international plan,voice mail plan, number vmail messages,total day minutes,total day calls,total day charge, total eve minutes, total eve calls,total eve charge, total night minutes,total night calls,total night charge,total intl minutes,total intl calls,total intl charge,customer service calls,churn.
-The dataset used for this analysis contains information about syria tel customers, including features such as customer demographics, usage patterns, and customer service interactions. The target variable is binary, indicating whether a customer churned or not.
+It contains information about syria tel customers, including features such as customer demographics, usage patterns, and customer service interactions. The target variable is binary, indicating whether a customer churned or not.
 
 # Objective
 This project aims to develop a classifier to identify customers likely to churn, enabling SyriaTel to implement effective churn prevention strategies and enhance overall business performance. Key objectives include developing precise machine learning models using historical data, analyzing consumer behavior patterns, utilizing feature engineering techniques, evaluating model performance, providing actionable insights for retention strategies, enhancing understanding of customer behaviors, and assessing the financial impact of reducing churn for SyriaTel.
 
-# Analysis
 # Exploratory Data Analysis (EDA)
-Explored the dataset to understand the distribution of features and the target variable.
-Analyzed correlations between features and identified potentially important predictors.
+Descriptive statistics were computed for numerical features, revealing insights into the distribution and variability of data.
+The distribution of churn status showed that approximately 14.5% of customers had churned.
+Analysis of account length and service-related features highlighted patterns and trends in customer behavior.
+Churn distributions by international plan, voice mail plan, and customer service calls provided insights into factors influencing churn.
 
 ## Baseline Model: Logistic Regression
-Trained a logistic regression model as the baseline.
-Evaluated the model's performance using accuracy and recall metrics.
-Identified features with high importance using feature importance analysis.
 
-Achieved an accuracy of 85.76% and recall of 19% for predicting churn.
-Identified top features contributing to churn prediction.
+Accuracy: Achieved an accuracy of 85.76%.
+Recall: Recall for class 0 (non-churn) was high at 98%, but for class 1 (churn), it was low at 19%.
+Precision: Achieved a precision of 87% for class 0 and 59% for class 1.
+Feature Importance: Identified key features driving churn prediction, such as customer service calls and usage patterns.
 
 ## Random Forest Classifier (A more complex model)
-Explored more complex models including Random Forest and Gradient Boosting Classifier.
-Tuned hyperparameters using grid search and randomized search to improve model performance.
-Evaluated each model's performance and compared results with the baseline.
-
-Improved accuracy to 94.15% and recall to 64% compared to logistic regression.
-Identified key features influencing churn prediction.
+Accuracy: Achieved an accuracy of 94.15%.
+Recall: Significantly improved recall for class 1 (churn) to 64% compared to logistic regression.
+Precision: High precision for both classes, indicating accurate positive predictions.
+Feature Importance: Identified features such as total day minutes and customer service calls as crucial for predicting churn.
 
 
 ## Gradient Boosting Classifier:
-Achieved an accuracy of 95.20% and recall of 73%.
-Tuned hyperparameters to optimize model performance.
+Accuracy: Achieved an accuracy of 95.65%.
+Recall: Improved recall for class 1 (churn) to 78% compared to logistic regression and random forest.
+Precision: High precision for both classes, indicating accurate positive predictions.
+
 # Conclusion
-Gradient Boosting Classifier yielded the highest performance with an accuracy of 95.20% and recall of 73%.
-Identified features such as customer service calls, total day minutes, and international plan as significant predictors of churn.
-Further improvements could be explored by conducting more exhaustive hyperparameter tuning or experimenting with ensemble methods like XGBoost.
+In conclusion, this  project has provided valuable insights into the dynamics of customer churn within SyriaTel. Through advanced data analysis and machine learning techniques, this analysis has developed predictive models capable of identifying customers at risk of churning with a high degree of accuracy. By leveraging these insights and adopting proactive retention strategies, SyriaTel can effectively mitigate churn, foster long-term customer loyalty, and drive sustainable business growth in the highly competitive telecom industry.
+
 # Next Steps
-Deploy the trained model into production for real-time churn prediction.
-Monitor model performance and retrain periodically to adapt to changing patterns.
-Explore additional data sources or features to enhance model predictive power.
+Targeted Marketing Campaigns: Design campaigns based on predictive insights to retain at-risk customers.
+Customer Engagement Strategies: Improve satisfaction and loyalty through personalized support and communication.
+Subscription Plan Optimization: Tailor plans to meet individual needs and preferences.
+Proactive Customer Retention: Implement proactive measures to retain high-value customers.
+Continuous Model Monitoring: Regularly monitor and update models to ensure accuracy and relevance over time.
