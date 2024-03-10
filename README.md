@@ -1,5 +1,7 @@
 # SYRIA-TEL CUSTOMER CHURN PREDICTION
 
+![image](https://github.com/Donnesto/Project-Phase-3/assets/151524351/1642d379-d12d-468b-8ff5-d69848941e0e)
+
 # Overview
 Customer churn, or the termination of a customer's service, is a major problem for SyriaTel, a well-known telecommunications provider. This can result in lost revenue and decreased market competitiveness. This project intends to reveal predictive patterns and create workable strategies to keep customers and reduce revenue loss by utilizing data analysis and machine learning.
 
