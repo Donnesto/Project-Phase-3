@@ -1,6 +1,6 @@
 # SYRIA-TEL CUSTOMER CHURN PREDICTION
 
-![Uploading image.png…]()
+![image](https://github.com/Donnesto/Project-Phase-3/assets/151524351/efa721b4-616b-46a9-a9ad-9cadc948b820)
 
 
 # Overview
